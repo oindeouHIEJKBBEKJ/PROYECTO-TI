@@ -1,0 +1,112 @@
+:root {
+    --primary-color: #216c1a;
+    --secondary-color: #e63946;
+    --accent-color: #2a9d3d;
+    --light-color: #f1faee;
+    --dark-color: #216c1a;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.hero-section {
+    background: linear-gradient(rgba(36, 108, 26, 0.8), rgba(36, 108, 26, 0.8)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.feature-card {
+    border-radius: 10px;
+    transition: transform 0.3s;
+    height: 100%;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.traffic-light {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.traffic-green {
+    background-color: #28a745;
+}
+
+.traffic-yellow {
+    background-color: #ffc107;
+}
+
+.traffic-red {
+    background-color: #dc3545;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.dashboard-card {
+    border-radius: 10px;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.dashboard-card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.offer-card {
+    border-left: 4px solid var(--accent-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 30px 0;
+}
+
+.role-badge {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.role-egresado {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.role-docente {
+    background-color: #e9c46a;
+    color: #333;
+}
+
+.role-ti {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.role-admin {
+    background-color: var(--primary-color);
+    color: white;
+}
